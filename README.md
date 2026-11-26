@@ -48,10 +48,4 @@ pytest -q                            # tests (no API key needed)
 ```
 The Gemini model names can be changed in `.env` (`GEMINI_CHAT_MODEL`, `GEMINI_EMBED_MODEL`) if Google retires a model.
 
-## Screenshots
-_Add a screenshot of the app here, e.g. `![App](docs/screenshot.png)`._
 
-## Possible improvements
-- OCR for scanned PDFs
-- Persistent vector database (e.g. Chroma / FAISS) for large document sets
-- Re-ranking retrieved chunks and evaluating answer quality
